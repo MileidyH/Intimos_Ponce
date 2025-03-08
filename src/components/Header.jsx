@@ -2,11 +2,6 @@ import { Link } from 'react-router-dom'
 import { FaHeart } from "react-icons/fa";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
   
   return (
 <header>
