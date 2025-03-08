@@ -22,7 +22,8 @@ import UpLoadNew from './components/UpLoadNew'
 let router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />
+    element: <Home />,
+    errorElement: <ErrorPage />
   },
   {
     path :'/todo',
