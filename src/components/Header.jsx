@@ -2,6 +2,12 @@ import { Link } from 'react-router-dom'
 import { FaHeart } from "react-icons/fa";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+  
   return (
 <header>
       <img src={`${import.meta.env.BASE_URL}/images/logoponce.png`} alt="Logo" className="logo" />
