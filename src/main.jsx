@@ -74,7 +74,9 @@ let router = createBrowserRouter([
     element: <UpLoadNew />
   }
 
-])
+],{
+  basename: '/Intimos_Ponce/',
+})
 
 
 
