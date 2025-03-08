@@ -1,0 +1,61 @@
+/* Register.css */
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ffdde1,  #f3a7c6);
+  }
+  
+  .register-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .register-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #d63384;
+  }
+  
+  .register-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f3a7c6;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 12px;
+    transition: 0.3s;
+  }
+  
+  .register-input:focus {
+    border-color: #d63384;
+    box-shadow: 0 0 8px rgba(214, 51, 132, 0.3);
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    background: #d63384;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-button:hover {
+    background: #c2185b;
+  }
+  
+  .register-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,38 @@
+.home-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .home-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .home-image {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .banner {
+    width: 35%;
+  }
+  
+  .home-text {
+    margin-top: 20px;
+    color: #b1005d;
+  }
+  
+  .home-text h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .home-text p {
+    font-size: 16px;
+    color: black;
+  }

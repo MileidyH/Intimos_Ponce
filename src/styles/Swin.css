@@ -1,0 +1,88 @@
+/* Estilos generales */
+.lingerie-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #b1005d;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Galería de lencería */
+.lingerie-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Tarjetas de producto */
+.lingerie-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px #fff;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lingerie-card:hover {
+    transform: scale(1.05);
+}
+
+.lingerie-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+h3 {
+    color: #a4507d;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+p {
+    color:#a4507d;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Botón de compra */
+.buy-button {
+    background-color: #b1005d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: rgba(199, 114, 167, 0.5);
+}
+
+/* Responsividad */
+@media (max-width: 900px) {
+    .lingerie-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .lingerie-gallery {
+        grid-template-columns: 1fr;
+    }
+}
