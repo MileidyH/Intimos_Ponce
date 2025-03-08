@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
-import { FaHeart } from "react-icons/fa";
+{/*import { FaHeart } from "react-icons/fa";*/}
+import { FaHeart, FaBars, FaTimes } from "react-icons/fa";
+import { useState } from "react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
