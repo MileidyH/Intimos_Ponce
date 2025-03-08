@@ -59,7 +59,7 @@ let router = createBrowserRouter([
     element: <UpLoadFile />
   }, 
   {
-    path: 'vestidosAdmi',
+    path: '/vestidosAdmi',
     element: <UpLoadSwin />
   },
   {
@@ -73,12 +73,8 @@ let router = createBrowserRouter([
   {
     path: '/newAdmin',
     element: <UpLoadNew />
-  },
-  {
-    path: '/error',
-    element: <ErrorPage />
   }
-
+  
 ],{
   basename: '/Intimos_Ponce/',
 })
