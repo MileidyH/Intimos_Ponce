@@ -16,6 +16,7 @@ import UpLoadSwin from './components/UpLoadSwin'
 import UpLoadOthers from './components/UpLoadOthers'
 import NewCollection from './pages/NewCollection'
 import UpLoadNew from './components/UpLoadNew'
+import ErrorPage from './pages/ErrorPage'
 
 
 
@@ -72,6 +73,10 @@ let router = createBrowserRouter([
   {
     path: '/newAdmin',
     element: <UpLoadNew />
+  },
+  {
+    path: '/error',
+    element: <ErrorPage />
   }
 
 ],{
