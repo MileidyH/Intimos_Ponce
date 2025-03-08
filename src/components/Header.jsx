@@ -4,6 +4,7 @@ import { FaHeart } from "react-icons/fa";
 const Header = () => {
   return (
 <header>
+      {/*<img src={`${import.meta.env.BASE_URL}/images/logoponce.png`} alt="Logo" className="logo" />*/}
       <img src={`${import.meta.env.BASE_URL}/images/logoponce.png`} alt="Logo" className="logo" />
 
       <nav className="nav-center">
