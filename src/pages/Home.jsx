@@ -10,9 +10,10 @@ const Home = () => {
       <Header />
       <div className="home-container">
         <div className="home-images">
-          <img src="/images/modelo1.png" alt="Modelo 1" className="home-image" />
-          <img src="/images/IT.jpg" alt="Banner Íntimos Ponce" className="home-image banner" />
-          <img src="/images/modelo2.png" alt="Modelo 2" className="home-image" />
+          <img src={`${import.meta.env.BASE_URL}/images/modelo1.png`} alt="Modelo 1" className="home-image" />
+          {/*<img src="/images/IT.jpg" alt="Banner Íntimos Ponce" className="home-image banner" />*/}
+          <img src={`${import.meta.env.BASE_URL}images/IT.jpg`} alt="IT" className="home-image banner"/>
+          <img src={`${import.meta.env.BASE_URL}/images/modelo2.png`} alt="Modelo 2" className="home-image" />
         </div>
         <div className="home-text">
           <h2>Descubre Nuestra Nueva Colección</h2>
