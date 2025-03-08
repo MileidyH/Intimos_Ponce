@@ -9,7 +9,7 @@ p {
 }
 
 /* HEADER */
-/*header {
+header {
   width: 100%;
   height: 60px;
   background-color: #fff;
@@ -63,98 +63,7 @@ p {
 .heart-icon {
   color: #b1005d;
   font-size: 30px;
-}*/
-
-header {
-  width: 100%;
-  height: 60px;
-  background-color: #fff;
-  color: #df61ae;
-  box-shadow: 0 4px 6px rgba(208, 59, 208, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  font-size: larger;
-  margin-bottom: 5px;
 }
-
-.logo {
-  width: 65px;
-  height: 60px;
-}
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 24px;
-  color: #df61ae;
-  cursor: pointer;
-}
-
-.nav-center {
-  display: flex;
-  gap: 20px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/*.nav-center {
-  display: flex;
-  font-family: Arial, sans-serif;
-  transition: color 0.3s;
-  gap: 15px;
-}*/
-
-.nav {
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  color: #df61ae;
-  transition: color 0.3s;
-  padding: 0 15px;
-}
-
-.contacto {
-  display: flex;
-  font-family: Arial, sans-serif;
-  align-items: center;
-  text-decoration: none;
-  color: #df61ae;
-}
-
-.nav:active {
-  color: #782583;
-}
-
-.heart-icon {
-  margin-left: 5px;
-}
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-center {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background: white;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .nav-center.open {
-    display: flex;
-  }
-}
-
 
 /* FOOTER */
 .footer {
